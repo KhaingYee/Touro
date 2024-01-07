@@ -1,0 +1,15 @@
+.text {
+  font-family: poppinSemiBold;
+}
+.destail {
+  font-size: 16px;
+}
+.iconImg {
+  font-size: 25px;
+  color: #f4935e;
+  padding-right: 10px;
+}
+.iconTxt {
+  font-size: 15px;
+  font-family: poppinSemiBold;
+}

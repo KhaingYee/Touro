@@ -1,0 +1,67 @@
+.headerLogo {
+  width: 53px;
+  height: 53px;
+}
+.navbar-brand {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  font-family: poppinSemiBold;
+}
+.activeNav {
+  width: 20px;
+  height: 3px;
+  background-color: #fe6f21;
+  position: absolute;
+  bottom: 5px;
+  left: 9px;
+}
+.btn-background {
+  background-color: #fe6f21 !important;
+  color: white !important;
+  width: 120px !important;
+}
+@media only screen and (max-width: 992px) {
+  .activeNav {
+    width: 20px;
+    height: 3px;
+    background-color: #fe6f21;
+    position: absolute;
+    bottom: 5px;
+    left: 9px;
+  }
+  .btn-background {
+    background-color: #fe6f21 !important;
+    color: white !important;
+    width: 120px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .activeNav {
+    width: 25px;
+    height: 3px;
+    background-color: #fe6f21;
+    position: absolute;
+    bottom: 5px;
+    left: 1px;
+  }
+  .btn-background {
+    background-color: #fe6f21 !important;
+    color: white !important;
+    width: 100px !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .activeNav {
+    width: 25px;
+    height: 3px;
+    background-color: #fe6f21;
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+  }
+  .btn-background {
+    background-color: #fe6f21 !important;
+    color: white !important;
+    width: 80px !important;
+  }
+}

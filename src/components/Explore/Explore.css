@@ -1,0 +1,83 @@
+.popularTitle {
+  font-size: 35px;
+  font-family: poppinSemiBold;
+}
+.activeNav {
+  width: 25px;
+  height: 3px;
+  background-color: #fe6f21;
+  position: absolute;
+  bottom: 1px;
+  left: 1px;
+}
+
+@media only screen and (max-width: 992px) {
+  .popularTitle {
+    font-size: 25px;
+    font-family: poppinSemiBold;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .popularTitle {
+    font-size: 25px;
+    font-family: poppinSemiBold;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .popularTitle {
+    font-size: 30px;
+    font-family: poppinSemiBold;
+    text-align: center;
+  }
+}
+.categoryTxt {
+  font-size: 14px;
+  font-family: poppinMedium;
+}
+
+.viewAllTxt {
+  font-size: 16px;
+  font-family: poppinMedium;
+  color: #fe6f21;
+}
+
+.card {
+  border-radius: 10px !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border: none !important;
+}
+
+.popularImg {
+  height: 240px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.popuName {
+  font-size: 18px;
+  font-family: poppinSemiBold;
+}
+
+.ratingTxt {
+  font-size: 14px;
+  font-family: poppinRegular;
+  color: #f4935e;
+}
+
+.iconStar {
+  font-size: 14px;
+  color: #f4935e;
+}
+.locIcon {
+  font-size: 14px;
+  color: #4a89e3;
+}
+
+.placeTxt {
+  font-size: 14px;
+  color: gray;
+}

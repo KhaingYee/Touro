@@ -1,0 +1,75 @@
+.CardAll {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  justify-items: start;
+  flex-wrap: wrap;
+}
+.oneCard {
+  width: 22%;
+  height: auto;
+  border: 1px solid #00000026;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #ffff;
+  cursor: pointer;
+  padding: 50px;
+}
+.numberPlus {
+  color: #f4935e;
+  font-family: poppinBold;
+}
+.numberTxt {
+  font-size: 14px;
+  font-family: poppinSemiBold;
+}
+
+@media only screen and (max-width: 768px) {
+  .CardAll {
+    row-gap: 20px;
+  }
+  .oneCard {
+    width: 30%;
+    height: auto;
+    border: 1px solid #00000026;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #ffff;
+    cursor: pointer;
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .CardAll {
+    row-gap: 20px;
+  }
+  .oneCard {
+    width: 47%;
+    height: auto;
+    border: 1px solid #00000026;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #ffff;
+    cursor: pointer;
+    padding: 50px;
+  }
+}
