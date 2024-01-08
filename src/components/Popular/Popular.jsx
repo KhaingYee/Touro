@@ -11,7 +11,7 @@ const Popular = () => {
   };
   return (
     <div className="container mt-5">
-      <div className="row align-items-end">
+      <div className="row align-items-end my-3">
         <div className="col-lg-6 col-md-4 col-sm-12">
           <p className="popularTitle">Popular Place</p>
         </div>

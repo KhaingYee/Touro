@@ -10,7 +10,7 @@ const Show = () => {
           <img src={leftImg} className="w-100 h-100" />
         </div>
         <div className="col-lg-6 col-md-6 col-sm-12">
-          <h3 className="text">Explore all corners of</h3>
+          <h3 className="text divide">Explore all corners of</h3>
           <h3 className="text">The world with us</h3>
           <p className="destail mt-3">
             We offer a wide range of travel services to provide our clients with

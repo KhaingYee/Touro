@@ -6,6 +6,7 @@ import Popular from "./components/Popular/Popular";
 import Show from "./components/Show/Show";
 import Explore from "./components/Explore/Explore";
 import CardBox from "./components/CardBox/CardBox";
+import Gallery from "./components/Gallery/Gallery";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Show />
       <Explore />
       <CardBox />
+      <Gallery />
     </div>
   );
 };

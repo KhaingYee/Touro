@@ -1,0 +1,52 @@
+.monment {
+  padding-left: 10px;
+}
+.imageGroup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.imgFir {
+  width: 32.5%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.imgTop {
+  overflow: hidden;
+}
+.doTop {
+  /* height: 400px; */
+}
+.imgBot {
+  overflow: hidden;
+  row-gap: 10px;
+}
+.doBot {
+  /* height: 200px; */
+}
+@media only screen and (max-width: 992px) {
+  .imgFir {
+    width: 32.5%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .imgFir {
+    width: 32.5%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .imgFir {
+    width: 32.5%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+  }
+}

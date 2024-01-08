@@ -13,3 +13,14 @@
   font-size: 15px;
   font-family: poppinSemiBold;
 }
+
+@media only screen and (max-width: 768px) {
+  .divide {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .divide {
+    margin-top: 30px;
+  }
+}
