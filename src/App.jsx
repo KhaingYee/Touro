@@ -7,6 +7,7 @@ import Show from "./components/Show/Show";
 import Explore from "./components/Explore/Explore";
 import CardBox from "./components/CardBox/CardBox";
 import Gallery from "./components/Gallery/Gallery";
+import Sletter from "./components/Sletter/Sletter";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Explore />
       <CardBox />
       <Gallery />
+      <Sletter />
     </div>
   );
 };

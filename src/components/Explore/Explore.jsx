@@ -59,7 +59,7 @@ const Explore = () => {
       </div>
 
       <div className="row">
-        <div className="col-lg-4 col-md-6 col-sm-12 mt-2">
+        <div className="col-lg-4 col-md-6 col-sm-6 mt-2">
           <div className="card p-2">
             <div className="popularImg">
               <img src={bthree} alt="" className="w-100 h-100" />
@@ -77,7 +77,7 @@ const Explore = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-6 col-sm-12 mt-2">
+        <div className="col-lg-4 col-md-6 col-sm-6 mt-2">
           <div className="card p-2">
             <div className="popularImg">
               <img src={btwo} alt="" className="w-100 h-100" />
@@ -95,7 +95,7 @@ const Explore = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-6 col-sm-12 mt-2">
+        <div className="col-lg-4 col-md-6 col-sm-6 mt-2">
           <div className="card p-2">
             <div className="popularImg">
               <img src={bone} alt="" className="w-100 h-100" />
@@ -113,7 +113,7 @@ const Explore = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-6 col-sm-12 mt-2">
+        <div className="col-lg-4 col-md-6 col-sm-6 mt-2">
           <div className="card p-2">
             <div className="popularImg">
               <img src={btwo} alt="" className="w-100 h-100" />
@@ -131,7 +131,7 @@ const Explore = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-6 col-sm-12 mt-2">
+        <div className="col-lg-4 col-md-6 col-sm-6 mt-2">
           <div className="card p-2">
             <div className="popularImg">
               <img src={bone} alt="" className="w-100 h-100" />
@@ -149,7 +149,7 @@ const Explore = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-6 col-sm-12 mt-2">
+        <div className="col-lg-4 col-md-6 col-sm-6 mt-2">
           <div className="card p-2">
             <div className="popularImg">
               <img src={bthree} alt="" className="w-100 h-100" />

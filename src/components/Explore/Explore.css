@@ -50,11 +50,17 @@
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   border: none !important;
 }
+.card:hover {
+  box-shadow: 0 2px 4px 0 rgba(50, 50, 50, 0.25);
+}
 
 .popularImg {
   height: 240px;
   border-radius: 10px;
   overflow: hidden;
+}
+.popularImg:hover {
+  transform: scale(1.01);
 }
 
 .popuName {

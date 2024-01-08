@@ -4,6 +4,8 @@
   justify-content: space-between;
   justify-items: start;
   flex-wrap: wrap;
+  padding-top: 30px !important;
+  padding-bottom: 10px !important;
 }
 .oneCard {
   width: 22%;
@@ -20,6 +22,9 @@
   background-color: #ffff;
   cursor: pointer;
   padding: 50px;
+}
+.oneCard:hover {
+  box-shadow: 0 2px 4px 0 rgba(50, 50, 50, 0.25);
 }
 .numberPlus {
   color: #f4935e;

@@ -5,7 +5,7 @@ import leftImg from "../../assets/images/travelThree.png";
 const Show = () => {
   return (
     <div className="container mt-5">
-      <div className="row align-items-center">
+      <div className="row align-items-center py-3">
         <div className="col-lg-6 col-md-6 col-sm-12">
           <img src={leftImg} className="w-100 h-100" />
         </div>

@@ -15,6 +15,10 @@
 }
 .imgTop {
   overflow: hidden;
+  cursor: pointer;
+}
+.imgTop:hover {
+  transform: scale(1.01);
 }
 .doTop {
   /* height: 400px; */
@@ -22,6 +26,10 @@
 .imgBot {
   overflow: hidden;
   row-gap: 10px;
+  cursor: pointer;
+}
+.imgBot:hover {
+  transform: scale(1.01);
 }
 .doBot {
   /* height: 200px; */
