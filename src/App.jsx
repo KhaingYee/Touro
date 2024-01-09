@@ -8,6 +8,7 @@ import Explore from "./components/Explore/Explore";
 import CardBox from "./components/CardBox/CardBox";
 import Gallery from "./components/Gallery/Gallery";
 import Sletter from "./components/Sletter/Sletter";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <CardBox />
       <Gallery />
       <Sletter />
+      <Footer />
     </div>
   );
 };

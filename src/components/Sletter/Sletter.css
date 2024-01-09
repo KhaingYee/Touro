@@ -52,6 +52,15 @@
     text-align: center;
     justify-content: center;
   }
+  .selImg {
+    font-size: 38px;
+    color: #adb5bd;
+  }
+  .selTxt {
+    font-size: 28px;
+    color: #adb5bd;
+    padding-left: 10px;
+  }
   .selInput {
     width: 50%;
     height: 60px;
@@ -75,6 +84,15 @@
     width: 49%;
     text-align: center;
     justify-content: center;
+  }
+  .selImg {
+    font-size: 30px;
+    color: #adb5bd;
+  }
+  .selTxt {
+    font-size: 25px;
+    color: #adb5bd;
+    padding-left: 10px;
   }
   .selInput {
     width: 60%;
